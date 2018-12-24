@@ -18,10 +18,11 @@ email: shr[dot]prasha[at]gmail[dot]com
 description: ''
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  prashas
 linkedin_username: prasha-shrestha-phd-nlp-31566662
 linkedin_display_username: Prasha Shrestha
 googlescholar_username: Prasha Shrestha
+bitbucket_username: prasha
+github_username:  prashas
 
 # Build settings
 markdown: kramdown
