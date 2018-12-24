@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  <div class="home-col-wrapper">
+      <div class="home-col home-col-1">
+          <img src="{{ "/assets/prasha_photo.jpg" | relative_url }}" width="150px" height="150px">
+      </div>
+
+      <div class="home-col home-col-2">
+        {{ content}}
+      </div>
+  </div>
+
+
+</div>
